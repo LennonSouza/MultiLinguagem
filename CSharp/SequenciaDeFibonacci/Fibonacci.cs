@@ -4,13 +4,28 @@ public class Fibonacci
 {
     public static void Main(string[] args)
     {
-        int param1 = 1, param2 = 1, resultado = 1;
+        int minimo, maximo;
 
         Console.Write("Digite o valor minimo: ");
-        int minimo = int.Parse(Console.ReadLine()) - 1;
+        if (!int.TryParse(Console.ReadLine(), out minimo))
+        {
+            Console.WriteLine("Entrada inválida para o valor mínimo. Certifique-se de inserir um número inteiro.");
+            return;
+        }
 
         Console.Write("Digite o valor maximo: ");
-        int maximo = int.Parse(Console.ReadLine());
+        if (!int.TryParse(Console.ReadLine(), out maximo) || maximo <= minimo)
+        {
+            Console.WriteLine("Entrada inválida para o valor máximo. Certifique-se de inserir um número inteiro maior que o valor mínimo.");
+            return;
+        }
+
+        PrintFibonacci(minimo - 1, maximo);
+    }
+
+    public static void PrintFibonacci(int minimo, int maximo)
+    {
+        int param1, param2 = 1, resultado = 1;
 
         for (int i = 0; i < maximo; i++)
         {
@@ -18,7 +33,7 @@ public class Fibonacci
             param2 = resultado;
             resultado = param1 + param2;
 
-            if (i >= minimo && i <= maximo) 
+            if (i >= minimo && i <= maximo)
             {
                 Console.WriteLine($"{param1} + {param2} = {resultado}");
             }
