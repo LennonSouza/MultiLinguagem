@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequenciaDeFibonacci", "CSh
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "FormulaDeBhaskara", "Python\FormulaDeBhaskara\FormulaDeBhaskara.pyproj", "{23209CE8-CB9B-48D6-B324-F3B22648DE0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaDeBhaskara", "CSharp\FormulaDeBhaskara\FormulaDeBhaskara.csproj", "{21F8C6D7-E19D-47FD-A985-DDDDE0F099D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E0CC6B34-BB8A-4184-B991-91AB98BBE3D4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{23209CE8-CB9B-48D6-B324-F3B22648DE0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{23209CE8-CB9B-48D6-B324-F3B22648DE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F8C6D7-E19D-47FD-A985-DDDDE0F099D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F8C6D7-E19D-47FD-A985-DDDDE0F099D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F8C6D7-E19D-47FD-A985-DDDDE0F099D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F8C6D7-E19D-47FD-A985-DDDDE0F099D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,6 +41,7 @@ Global
 		{46CA360C-3A64-4F1E-AC01-224EE03AD134} = {6A3D7BA9-278E-4DE5-BE42-65F3C5FA13CE}
 		{E0CC6B34-BB8A-4184-B991-91AB98BBE3D4} = {8FDD8602-EF5A-4BD6-90DF-F115EB6CD4AC}
 		{23209CE8-CB9B-48D6-B324-F3B22648DE0B} = {6A3D7BA9-278E-4DE5-BE42-65F3C5FA13CE}
+		{21F8C6D7-E19D-47FD-A985-DDDDE0F099D3} = {8FDD8602-EF5A-4BD6-90DF-F115EB6CD4AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E5B86C0B-011C-4FA4-8354-5CBFCBB9D495}
