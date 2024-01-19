@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Python", "Python", "{6A3D7BA9-278E-4DE5-BE42-65F3C5FA13CE}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SequenciaDeFibonacci", "Python\SequenciaDeFibonacci\SequenciaDeFibonacci.pyproj", "{46CA360C-3A64-4F1E-AC01-224EE03AD134}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{8FDD8602-EF5A-4BD6-90DF-F115EB6CD4AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequenciaDeFibonacci", "CSharp\SequenciaDeFibonacci\SequenciaDeFibonacci.csproj", "{E0CC6B34-BB8A-4184-B991-91AB98BBE3D4}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "FormulaDeBhaskara", "Python\FormulaDeBhaskara\FormulaDeBhaskara.pyproj", "{23209CE8-CB9B-48D6-B324-F3B22648DE0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46CA360C-3A64-4F1E-AC01-224EE03AD134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46CA360C-3A64-4F1E-AC01-224EE03AD134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0CC6B34-BB8A-4184-B991-91AB98BBE3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0CC6B34-BB8A-4184-B991-91AB98BBE3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0CC6B34-BB8A-4184-B991-91AB98BBE3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0CC6B34-BB8A-4184-B991-91AB98BBE3D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23209CE8-CB9B-48D6-B324-F3B22648DE0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23209CE8-CB9B-48D6-B324-F3B22648DE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46CA360C-3A64-4F1E-AC01-224EE03AD134} = {6A3D7BA9-278E-4DE5-BE42-65F3C5FA13CE}
+		{E0CC6B34-BB8A-4184-B991-91AB98BBE3D4} = {8FDD8602-EF5A-4BD6-90DF-F115EB6CD4AC}
+		{23209CE8-CB9B-48D6-B324-F3B22648DE0B} = {6A3D7BA9-278E-4DE5-BE42-65F3C5FA13CE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5B86C0B-011C-4FA4-8354-5CBFCBB9D495}
+	EndGlobalSection
+EndGlobal
