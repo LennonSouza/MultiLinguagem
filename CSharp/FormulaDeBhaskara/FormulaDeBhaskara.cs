@@ -4,6 +4,8 @@ public class FormulaDeBhaskara
 {
     public static void Main(string[] args)
     {
+        Console.Title = "Formula De Bhaskara";
+
         int a, b, c;
 
         if (!Entrada.ObterCoeficiente("A", out a) || !Entrada.ObterCoeficiente("B", out b) || !Entrada.ObterCoeficiente("C", out c)) return;

@@ -4,6 +4,8 @@ public class Fibonacci
 {
     public static void Main(string[] args)
     {
+        Console.Title = "Sequencia de Fibonacci";
+
         int minimo, maximo;
 
         Console.Write("Digite o valor minimo: ");
