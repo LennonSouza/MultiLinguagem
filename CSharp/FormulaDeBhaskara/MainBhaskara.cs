@@ -1,6 +1,6 @@
 ﻿namespace FormulaDeBhaskara;
 
-public class FormulaDeBhaskara
+public class MainBhaskara
 {
     public static void Main(string[] args)
     {

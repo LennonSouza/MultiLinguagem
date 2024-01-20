@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>46ca360c-3a64-4f1e-ac01-224ee03ad134</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SequenciaDeFibonacci.py</StartupFile>
+    <StartupFile>Main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,7 +24,7 @@
     <Compile Include="ClassPrint.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="SequenciaDeFibonacci.py" />
+    <Compile Include="Main.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
