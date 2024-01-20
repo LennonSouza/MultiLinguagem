@@ -1,4 +1,4 @@
-def PrintFibonacci(minimo, maximo):
+def Print(minimo, maximo):
         
     param1, param2, resultado = 1, 1, 1
 

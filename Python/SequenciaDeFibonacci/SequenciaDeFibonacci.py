@@ -9,4 +9,4 @@ while True:
         print("Input invalido. Por Favor coloque um numero inteiro.")
         
             
-ClassPrint.PrintFibonacci(minimo, maximo)
+ClassPrint.Print(minimo, maximo)
