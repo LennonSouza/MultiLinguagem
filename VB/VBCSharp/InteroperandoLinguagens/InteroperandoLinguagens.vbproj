@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>InteroperandoLinguagens</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\CSharp\InteroperarComVB\InteroperarComVB\InteroperarComVB\InteroperarComVB.csproj" />
+  </ItemGroup>
+
+</Project>
